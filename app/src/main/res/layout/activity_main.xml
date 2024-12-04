@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginHorizontal="5dp">
+
+    <EditText
+        android:id="@+id/teNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/nombre"/>
+
+    <EditText
+        android:id="@+id/teEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edad"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"/>
+
+    <TextView
+        android:id="@+id/tvVerUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:text=""/>
+
+</LinearLayout>
